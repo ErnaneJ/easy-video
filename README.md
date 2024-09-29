@@ -1,38 +1,45 @@
-# create-svelte
+# 🎥 [exptl] Gesture Video Controller (?)
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+A sleek and intuitive video player component designed to enhance user interaction with video content through gesture controls. The main feature of this project is the **Gesture Video Controller**, which allows users to easily manipulate video playback using both mouse and touch gestures.
 
-## Creating a project
+## Development
 
-If you're seeing this, you've probably already done this step. Congrats!
-
+1. Clone the repository:
 ```bash
-# create a new project in the current directory
-npm create svelte@latest
+git clone https://github.com/ernanej/easy-video.git
+cd easy-video
+  ```
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+2. Install the dependencies:
+  ```bash
+  npm install
+  ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
+3. To start the development server, run:
 ```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+## ✋ Gesture Controls Overview
 
-To create a production version of your app:
+Here are the available gestures and their functionalities:
 
-```bash
-npm run build
-```
+| Gesture                     | Description                                | Available |
+|:----------------------------|:-------------------------------------------| :-: |
+| **Double Click/Tap Right**  | Advances the video by 10 seconds          | ✅ |
+| **Double Click/Tap Left**   | Rewinds the video by 10 seconds           | ✅ |
+| **Drag Down**               | Decreases the volume                       | ✅ |
+| **Drag Up**                 | Increases the volume                       | ✅ |
+| **Press/Click And Hold**    | Pauses the video                          | ✅ |
+| **Release After Pressing**   | Resumes the video                         | ✅ |
+| **Drag To The Right**       | Advances the video by 10 seconds          | ✅ |
+| **Drag To The Left**        | Rewinds the video by 10 seconds           | ✅ |
+| **Quick Click/Tap**         | Mutes/unmutes the video                   | ✅ |
 
-You can preview the production build with `npm run preview`.
+## 🤝 Contributing
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
+
+## Future
+
+> svelte npm package?
